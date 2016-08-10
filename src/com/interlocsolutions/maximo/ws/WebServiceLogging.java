@@ -19,9 +19,6 @@ public class WebServiceLogging {
     /** to format the current date/time into a format for the temp filename. */
     protected SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss.SSSS");
 
-    /** the directory where files should be created. */
-    protected File directory = new File(System.getProperty("interloc.mea.log", "."));
-
     /** the logger for reporting problems. */
     protected Logger logger = Logger.getLogger("maximo.meaweb");
 
@@ -64,6 +61,8 @@ public class WebServiceLogging {
      * @throws IOException if an IO problem occurs.
      */
     protected File createTemporaryFile(String prefix, String uuid, String stage, String suffix) throws IOException {
+        File directory = new File(System.getProperty("interloc.mea.log", "."));
+
         String dstamp = sdf.format(new Date());
         File rc = File.createTempFile(String.format("%s_%s_%s_%s", prefix, uuid, stage, dstamp), suffix, directory);
         return rc;
