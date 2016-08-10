@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/src" path="src"/>
+	<classpathentry kind="src" output="bin/tests" path="tests"/>
+	<classpathentry kind="src" path="properties"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="lib/build/asset-management-meaweb.jar"/>
+	<classpathentry kind="lib" path="lib/build/axiom-api.jar"/>
+	<classpathentry kind="lib" path="lib/build/axiom-dom.jar"/>
+	<classpathentry kind="lib" path="lib/build/axiom-impl.jar"/>
+	<classpathentry kind="lib" path="lib/build/axis2-kernel.jar"/>
+	<classpathentry kind="lib" path="lib/build/commons-codec.jar"/>
+	<classpathentry kind="lib" path="lib/build/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="lib/build/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="lib/build/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/build/geronimo-activation_1.1_spec.jar"/>
+	<classpathentry kind="lib" path="lib/build/geronimo-javamail_1.4_spec.jar"/>
+	<classpathentry kind="lib" path="lib/build/geronimo-jta_1.1_spec.jar"/>
+	<classpathentry kind="lib" path="lib/build/geronimo-stax-api_1.0_spec.jar"/>
+	<classpathentry kind="lib" path="lib/build/geronimo-ws-metadata_2.0_spec.jar"/>
+	<classpathentry kind="lib" path="lib/build/jaxen.jar"/>
+	<classpathentry kind="lib" path="lib/build/log4j.jar"/>
+	<classpathentry kind="lib" path="lib/build/neethi.jar"/>
+	<classpathentry kind="lib" path="lib/build/servlet-api.jar"/>
+	<classpathentry kind="lib" path="lib/build/woden-api.jar"/>
+	<classpathentry kind="lib" path="lib/build/woden-impl-dom.jar"/>
+	<classpathentry kind="lib" path="lib/build/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="lib/build/wstx-asl.jar"/>
+	<classpathentry kind="lib" path="lib/build/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="lib/build/XmlSchema.jar"/>
+	<classpathentry kind="lib" path="lib/test/hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="lib/test/junit-addons.jar"/>
+	<classpathentry kind="lib" path="lib/test/junit.jar"/>
+	<classpathentry kind="lib" path="lib/test/log4j.jar"/>
+	<classpathentry kind="lib" path="lib/test/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="lib/test/xmlParserAPIs.jar"/>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>
