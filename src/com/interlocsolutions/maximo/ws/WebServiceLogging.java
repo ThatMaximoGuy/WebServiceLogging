@@ -64,7 +64,7 @@ public class WebServiceLogging {
         File directory = new File(System.getProperty("interloc.mea.log", "."));
 
         String dstamp = sdf.format(new Date());
-        File rc = File.createTempFile(String.format("%s_%s_%s_%s", prefix, uuid, stage, dstamp), suffix, directory);
+        File rc = File.createTempFile(String.format("%s_%s_%s_%s_", prefix, uuid, dstamp, stage), suffix, directory);
         return rc;
     }
 
